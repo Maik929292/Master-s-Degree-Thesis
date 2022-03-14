@@ -95,7 +95,7 @@ tiff('ROCLDA.tiff', units="in", width=10, height=8, res=300)
 
 
 roc_lda.all <- roc(test_all$transactionRevenue, lda.pred.all$posterior[,2], legacy.axes = F, plot = TRUE, percent = TRUE,
-                   xlab = "Specificità (%)", ylab = "Sensibilità (%)",
+                   xlab = "SpecificitÃ  (%)", ylab = "SensibilitÃ  (%)",
                    col = "blue", lwd = 3, asp =NA)
 
 roc_lda.num <- plot.roc(test_num$transactionRevenue, lda.pred.num$posterior[,2], percent = TRUE, col = "brown", 
