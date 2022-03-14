@@ -83,7 +83,7 @@ print(roc_svm.smote)
 
 
 svm.info.normal <- roc(test_all$transactionRevenue, fitted.all, legacy.axes = F, plot = TRUE, percent = TRUE,
-                       xlab = "Specificità (%)", ylab = "Sensibilità (%)",
+                       xlab = "SpecificitÃ  (%)", ylab = "SensibilitÃ  (%)",
                        col = "blue", lwd = 3, asp =NA)
 
 svm.info.num <- plot.roc(test_num$transactionRevenue, fitted.num, percent = TRUE, col = "brown", 
