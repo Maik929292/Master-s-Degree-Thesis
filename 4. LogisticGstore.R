@@ -121,7 +121,7 @@ print(roc_smote)
 ##########################ROC Curves Logistic Regression#############
 
 roc.log.all <- roc(test_all$transactionRevenue, normal_predict, legacy.axes = F, plot = TRUE, percent = TRUE,
-                       xlab = "Specificità(%)", ylab = "Sensibilità (%)",
+                       xlab = "SpecificitÃ (%)", ylab = "SensibilitÃ  (%)",
                        col = "blue", lwd = 3, asp =NA)
 
 roc.log.num <- plot.roc(test_num$transactionRevenue, num_predict, percent = TRUE, col = "brown", 
